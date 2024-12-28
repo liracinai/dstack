@@ -108,6 +108,8 @@ For additional information and examples, see the following links:
 * [Examples](https://dstack.ai/examples)
 * [Providers](https://dstack.ai/providers)
 * [Discord](https://discord.gg/u8SmfwPpMd)
+* [X/Twitter](https://x.com/dstackai)
+* [Ambassador program](https://dstack.ai/blog/ambassador-program/)
 
 ## Contributing
 
