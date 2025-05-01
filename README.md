@@ -134,6 +134,7 @@ For additional information, see the following links:
 
 * [Docs](https://dstack.ai/docs)
 * [Discord](https://discord.gg/u8SmfwPpMd)
+* [X/Twitter](https://x.com/dstackai)
 
 ## Contributing
 
