@@ -3,8 +3,7 @@
 The `dstack` plugin system allows extending `dstack` server functionality using external Python packages.
 
 !!! info "Experimental"
-    Plugins are currently an _experimental_ feature.
-    Backward compatibility is not guaranteed across releases.
+    Plugins are currently an _experimental_ feature, and backward compatibility is not guaranteed across releases.​
 
 ## Enable plugins
 
@@ -22,7 +21,7 @@ projects:
 
 </div>
 
-On the next server restart, you should see a log message indicating that the plugin is loaded.
+Upon the next server restart, you should see a log message indicating that the plugin has been loaded.​
 
 ## Create plugins
 
@@ -81,9 +80,9 @@ Then you can install the plugin package into your Python environment and enable 
 
 ## Apply policies
 
-Currently the only plugin functionality is apply policies.
-Apply policies allow modifying specs of runs, fleets, volumes, and gateways submitted on `dstack apply`.
-Subclass `dstack.plugins.ApplyPolicy` to implement them.
+Currently, the only plugin functionality is apply policies.
+Apply policies allow you to modify the specs of runs, fleets, volumes, and gateways submitted via `dstack apply`.
+To implement them, subclass `dstack.plugins.ApplyPolicy`.
 
 Here's an example of how to enforce certain rules using apply policies:
 
